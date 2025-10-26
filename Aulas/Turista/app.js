@@ -14,7 +14,7 @@ if (escolhaUsuario == null || escolhaUsuario == '') {
             window.location.href = 'praia.html'
         } else if (escolhaUsuario === 'montanha') {
             alert('Montanha!!')
-            window.location.href = 'cidade.html'
+            window.location.href = 'montanha.html'
                  } else if (escolhaUsuario === 'cidade') {
             alert('Cidade Curitiba!!')
             window.location.href = 'cidade.html'
