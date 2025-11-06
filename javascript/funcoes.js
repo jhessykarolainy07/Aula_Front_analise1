@@ -28,10 +28,30 @@ function formataTexto(lista){
 function adicao(n1, n2){
     return n1 + n2
 }
+function subtracao(n1, n2){
+    return n1 + n2
+}
+function multiplicacao(n1, n2){
+    return n1 + n2
+}
+function divisao(n1, n2){
+    return n1 + n2
+}
+
 //faça uma versão para subtracao, multiplicacao, divisao
 
 const resultadoAdicao = adicao(5, 25) + 30
 console.log(`Adição: ${resultadoAdicao}`) // valor 30
+
+const resultadoSubtracao = subtracao(500, 4)
+console.log(`Subtração: ${resultadoSubtracao}`)
+
+
+const resultadoMultiplicacao = multiplicacao(5, 100)
+console.log(`Multiplicação: ${resultadoMultiplicacao}`)
+
+const resultadoDivisao = divisao(5, 25)
+console.log(`Divisão: ${resultadoAdicao}`)
 
 // Invocar ou chamar a função
 // dizOla()
